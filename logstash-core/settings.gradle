@@ -1,1 +1,3 @@
-rootProject.name = 'logstash-core'
+rootProject.name='logstash-core'
+
+Boolean oss = System.getenv('OSS').equals('true')
